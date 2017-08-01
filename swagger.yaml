@@ -104,22 +104,16 @@ responses:
 ################################################################################
 definitions:
   - $ref: ./definitions/common.yaml
-  - $ref: ./definitions/alert.yaml
   - $ref: ./definitions/integration.yaml  # Will be implemented
-  - $ref: ./definitions/heartbeat.yaml
   - $ref: ./definitions/policy.yaml # Will be implemented
   - $ref: ./definitions/maintenance.yaml  # Will be implemented
-  - $ref: ./definitions/account.yaml
   - $ref: ./definitions/user.yaml
-  - $ref: ./definitions/contact.yaml
   - $ref: ./definitions/notificationRule.yaml # Will be implemented
   - $ref: ./definitions/notificationRuleStep.yaml # Will be implemented
   - $ref: ./definitions/team.yaml
   - $ref: ./definitions/teamMember.yaml # Will be implemented
   - $ref: ./definitions/teamRoutingRule.yaml  # Will be implemented
-  - $ref: ./definitions/schedule.yaml
   - $ref: ./definitions/scheduleRotation.yaml
   - $ref: ./definitions/scheduleOverride.yaml # Will be implemented
   - $ref: ./definitions/whoIsOnCall.yaml  # Will be implemented
   - $ref: ./definitions/escalation.yaml # Will be implemented
-  - $ref: ./definitions/forwardingRule.yaml
